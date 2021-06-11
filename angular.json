@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "akily-project"
+    }
+  },
+  "defaultProject": "akily-project",
+  "cli": {
+    "analytics": false
+  }
 }

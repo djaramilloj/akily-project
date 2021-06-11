@@ -1,0 +1,16 @@
+<div class="activity-container">
+    <div class="milestone-container">
+        <div 
+            *ngFor="let milestone of incomingActivity.milestonesToShow"
+            class="milestone-container__item">
+            <div class="milestone-icon">
+                <img [src]="milestone.icon" alt="milestone icon">
+            </div>
+            <p>{{ milestone.badge }}</p>
+        </div>
+    </div>
+    <div class="activity-info__container">
+        <h3>{{ incomingActivity.title }}</h3>
+        <p>{{ incomingActivity.description }}</p>
+    </div>
+</div>
